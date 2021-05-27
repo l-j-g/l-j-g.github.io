@@ -1,0 +1,29 @@
+.pageHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+}
+
+.navBar {
+    font-size: 20px;
+    background-color: #333;
+    overflow: hidden;
+
+}
+/* Links inside the navbar */
+.navBar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Add a red background color to navbar links on hover */
+.navBar a:hover {
+    background-color: red;
+}
