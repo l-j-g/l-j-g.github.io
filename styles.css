@@ -1,21 +1,20 @@
-.pageHeader {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#pageHeader {
+    text-align: center;
     color: black;
 
 }
 
-.navBar {
+#navBar {
     font-size: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
     background-color: #333;
     overflow: hidden;
 
 }
 /* Links inside the navbar */
-.navBar a {
-    float: left;
+#navBar a {
     font-size: 16px;
     color: white;
     text-align: center;
@@ -24,6 +23,30 @@
 }
 
 /* Add a red background color to navbar links on hover */
-.navBar a:hover {
+#navBar a:hover {
     background-color: red;
 }
+
+/* Body Styling */
+
+body {
+    text-align: justify;
+    margin: 15%;
+    margin-top: 0px;
+}
+article{ 
+    display:flex;
+}
+
+article img {
+    max-zoom: 20%;
+}
+
+footer {
+    display:flex;
+    height: 10%;
+}
+
+/* footer img{ */
+/*     height:10% ; */
+/* } */
