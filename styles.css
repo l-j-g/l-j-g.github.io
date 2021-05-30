@@ -32,7 +32,7 @@
 
 body {
     text-align: justify;
-    font-family: Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
     margin: 15%;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -69,10 +69,26 @@ article img {
     padding: 20px;
 }
 
+
 #socialMedia {
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
 }
+
+#socialMedia img {
+    max-height: 10vh;
+    height: 40px;
+    vertical-align: middle;
+}
+
+#socialMedia a {
+    color: black;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
 
 footer {
     display: flex;
@@ -81,4 +97,3 @@ footer {
     margin-top: auto;
     /* overflow: hidden; */
 }
-
