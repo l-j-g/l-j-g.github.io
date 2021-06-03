@@ -105,12 +105,14 @@ body {
     display: flex;
     justify-content: space-around;
     margin-top: auto;
+    margin-top: 20px;
+    padding: 0px;
     /* This makes a 'sticky' footer at the btm of the pg.*/
     /* overflow: hidden; */
 }
 
 #socialMediaFooter img {
-    height: 10vh;
+    height: 3rem;
 }
 
 #blogIndex h1 {
