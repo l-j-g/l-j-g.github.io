@@ -41,7 +41,6 @@ body {
     margin-bottom: 0px;
     display: flex;
     flex-direction: column;
-    padding: 20px;
     background: #f1f1f1;
 }
 
@@ -50,6 +49,9 @@ body {
     margin-top: auto;
 }
 
+.home h1{
+    margin-top: 0;
+}
 
 .post {
     display: flex;
