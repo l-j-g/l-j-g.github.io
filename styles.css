@@ -29,6 +29,9 @@
 }
 
 /* Body Styling */
+html, body {
+    height: 100%;
+}
 
 body {
     text-align: justify;
@@ -38,24 +41,30 @@ body {
     margin-bottom: 0px;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
     padding: 20px;
     background: #f1f1f1;
 }
 
 
-.post {
-    display: flex;
-    flex-direction: row;
+.footer {
+    margin-top: auto;
 }
 
-.post img {
-    height: 30vh;
+
+.post {
+    display: flex;
+}
+
+.post img{
+    max-width: 40%;
+    flex: 1;
+    align-self:flex-start;
+    padding-right: 3%;
 }
 
 .post p {
-    min-width: 10vw;
     text-align: left;
+    flex: 1;
 }
 
 .card {
@@ -104,8 +113,6 @@ body {
 #socialMediaFooter {
     display: flex;
     justify-content: space-around;
-    margin-top: auto;
-    margin-top: 20px;
     padding: 0px;
     /* This makes a 'sticky' footer at the btm of the pg.*/
     /* overflow: hidden; */
@@ -269,6 +276,13 @@ body {
 
     .post {
         flex-direction: column;
+    }
+
+    .post img {
+        max-width: auto;
+        max-height: 30%;
+        align-self: center;
+
     }
 
     body {
