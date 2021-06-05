@@ -10,7 +10,6 @@
     align-items: center;
     justify-content: space-around;
     background-color: #333;
-    overflow: hidden;
 
 }
 
@@ -49,8 +48,13 @@ body {
     margin-top: auto;
 }
 
+
 .home h1{
     margin-top: 0;
+}
+
+.footer .card {
+    padding: 0px;
 }
 
 .post {
@@ -58,7 +62,7 @@ body {
 }
 
 .post img{
-    max-width: 40%;
+    max-width: 35%;
     flex: 1;
     align-self:flex-start;
     padding-right: 3%;
@@ -76,18 +80,16 @@ body {
     margin-top: 20px;
 }
 
-.blogBannerImg {
-    /*Create banner sized images for blog posts*/
+.blogPosts img {
     width: 100%;
-    height: 200px;
-    overflow: hidden;
+    max-height:300px;
+    object-fit:scale-down;
+    object-position: 0 0;
 }
+.center {
+           text-align: center;
 
-.blogBannerImg img {
-    /*Create banner sized images for blog posts*/
-    width: 100%;
 }
-
 
 #socialMedia {
     /*Flexbox to display social media links on contact me page*/
@@ -132,6 +134,7 @@ body {
 #blogIndex ul li {
     position: relative;
     list-style: none;
+    text-align: left;
 
 }
 
@@ -141,7 +144,7 @@ body {
 /* The actual timeline (the vertical ruler) */
 .timeline {
     position: relative;
-    max-width: 1200px;
+    max-width: 100%;
     /* margin: 0 auto; */
 
 }
@@ -231,15 +234,21 @@ body {
     background-color: white;
     position: relative;
     border-radius: 20px;
+    font-size: 0.85rem;
+}
+
+.content header div{
+    display: flex;
+    justify-content: space-between;
 }
 
 .content h2,
 .content h3,
 .content h4{
-    margin:0;
     margin-top:0;
     margin-bottom:0;
 }
+
 
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
