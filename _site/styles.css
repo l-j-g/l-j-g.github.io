@@ -1,0 +1,414 @@
+#pageHeader {
+    text-align: center;
+    color: black;
+
+}
+
+#navBar {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #333;
+
+}
+
+/* Links inside the navbar */
+#navBar a {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 100%;
+}
+
+/* Add a red background color to navbar links on hover */
+#navBar a:hover {
+    background-color: red;
+}
+
+#navBar .current {
+    color: red;
+}
+
+
+#navBar a.current:hover {
+    background-color: #333;
+}
+
+
+/* Body Styling */
+html,
+body {
+    height: 100%;
+}
+
+body {
+    text-align: justify;
+    font-family: Roboto, sans-serif;
+    margin: 15%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    background: #f1f1f1;
+}
+
+.home h1 {
+    margin-top: 0;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+
+.footer .card {
+    padding: 0px;
+    text-align: center;
+}
+
+
+.post {
+    display: flex;
+    flex-direction: column;
+}
+
+.post img {
+    width: 100%;
+}
+
+.post p {
+    text-align: left;
+    flex: 1;
+}
+
+.post figure {
+    display: inline;
+    max-width: 29%;
+    padding-right: 3%;
+    margin: 0;
+}
+
+.post figcaption {
+    text-align: center;
+}
+
+
+#imgRow {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.card {
+    /* Creates a 'card' effect for sections of content*/
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.blogPosts img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: scale-down;
+    object-position: 0 0;
+}
+
+.center {
+    text-align: center;
+
+}
+
+#socialMedia {
+    /*Flexbox to display social media links on contact me page*/
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+#socialMedia img {
+    max-height: 10vh;
+    height: 40px;
+    vertical-align: middle;
+    /* Align text to be in the middle of imgs*/
+}
+
+#socialMedia a {
+    /* txt styling for social media links */
+    color: black;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+#socialMediaFooter {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    /* This makes a 'sticky' footer at the btm of the pg.*/
+    /* overflow: hidden; */
+}
+
+#socialMediaFooter img {
+    height: 3rem;
+}
+
+#blogIndex h1 {
+    border-bottom: 1px solid black;
+
+}
+
+#blogIndex ul li {
+    position: relative;
+    list-style: none;
+    text-align: left;
+
+}
+
+
+
+
+/* /\* The actual timeline (the vertical ruler) *\/ */
+/* .timeline { */
+/*     position: relative; */
+/*     max-width: 100%; */
+/*     /\* margin: 0 auto; *\/ */
+/*     height:50%; */
+
+/* } */
+
+/* /\* The actual timeline (the vertical ruler) *\/ */
+/* .timeline::after { */
+/*     content: ''; */
+/*     position: absolute; */
+/*     width: 6px; */
+/*     background-color: black; */
+/*     top: 0; */
+/*     bottom: 0; */
+/*     left: 50%; */
+/*     margin-left: -3px; */
+/* } */
+
+/* /\* Container around content *\/ */
+/* .container { */
+/*     padding: 10px 40px; */
+/*     position: relative; */
+/*     background-color: inherit; */
+/*     width: 50%; */
+/*     box-sizing: border-box; */
+/* } */
+
+/* /\* The circles on the timeline *\/ */
+/* .container::after { */
+/*     content: ''; */
+/*     position: absolute; */
+/*     width: 25px; */
+/*     height: 25px; */
+/*     right: -4%; */
+/*     background-color: white; */
+/*     border: 4px solid red; */
+/*     top: 15px; */
+/*     border-radius: 50%; */
+/*     z-index: 1; */
+/* } */
+
+
+/* #line { */
+/*     width: 3px; */
+/*     position: relative; */
+/*     height: 100px; */
+/*     color:black; */
+/*     height: 100%; */
+/* } */
+/* /\* Place the container to the left *\/ */
+/* .left { */
+/*     left: 0; */
+/* } */
+
+/* /\* Place the container to the right *\/ */
+/* .right { */
+/*     left: 50%; */
+/* } */
+
+/* /\* Add arrows to the left container (pointing right) *\/ */
+/* .left::before { */
+/*     content: " "; */
+/*     height: 0; */
+/*     position: absolute; */
+/*     top: 22px; */
+/*     width: 0; */
+/*     z-index: 1; */
+/*     right: 30px; */
+/*     border: medium solid black; */
+/*     border-width: 10px 0 10px 10px; */
+/*     border-color: transparent transparent transparent white; */
+/* } */
+
+/* /\* Add arrows to the right container (pointing left) *\/ */
+/* .right::before { */
+/*     content: " "; */
+/*     height: 0; */
+/*     position: absolute; */
+/*     top: 22px; */
+/*     width: 0; */
+/*     z-index: 1; */
+/*     left: 30px; */
+/*     border: medium solid white; */
+/*     border-width: 10px 10px 10px 0; */
+/*     border-color: transparent white transparent transparent; */
+/* } */
+
+/* /\* Fix the circle for containers on the right side *\/ */
+/* .right::after { */
+/*     left: -16px; */
+/* } */
+
+/* The actual content */
+.timeline{
+    position: relative;
+    max-width: 100%;
+}
+
+.centerline {
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    background: black;
+    left: 50%;
+    transform: translateX(-50%) 
+}
+
+.timeline .content {
+    display: flex;
+}
+
+.timeline .row-1 {
+    justify-content: flex-start;
+}
+
+.timeline .row-2 {
+    justify-content: flex-end;
+}
+
+.timeline .content section {
+    background-color: white;
+    border-radius: 5px;
+    width: calc(50% - 80px);
+    padding: 20px;
+    position: relative;
+    margin-top: 20px;
+
+}
+
+.content section .circle{
+    position:absolute;
+    content: "";
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    background: white;
+    z-index: 1;
+    text-align:center;
+    border-radius: 50%;
+    border: solid red 2px;
+    top: 8px;
+}
+
+.row-1 section .circle {
+    right: -57px;
+}
+.row-2 section .circle {
+    left: -57px;
+}
+
+.timeline .content section::before{
+    position:absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: white;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+    .row-1 section::before{
+        right: -7px;
+    }
+
+    .row-2 section::before{
+        left: -7px;
+    }
+
+.content section .details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+/* /\* Media queries - Responses to screens less than 800px wide *\/ */
+@media screen and (max-width: 800px) {
+    #akira {
+        display: none;
+    }
+
+    /* Media queries - Responses to screens less than 600px wide */
+    @media screen and (max-width: 600px) {
+
+        /* /\* Place the timelime to the left *\/ */
+        /* .timeline::after { */
+        /*     left: 30px; */
+        /* } */
+
+        /* /\* Full-width containers *\/ */
+        /* .container { */
+        /*     width: 100%; */
+        /*     padding-left: 70px; */
+        /*     padding-right: 25px; */
+        /* } */
+
+        /* /\* Make sure that all arrows are pointing leftwards *\/ */
+        /* .container::before { */
+        /*     left: 60px; */
+        /*     border: medium solid white; */
+        /*     border-width: 10px 10px 10px 0; */
+        /*     border-color: transparent white transparent transparent; */
+        /* } */
+
+        /* /\* Make sure all circles are at the same spot *\/ */
+        /* .left::after, */
+        /* .right::after { */
+        /*     left: 15px; */
+        /* } */
+
+        /* /\* Make all right containers behave like the left ones *\/ */
+        /* .right { */
+        /*     left: 0%; */
+        /* } */
+
+        #lc {
+            display: none;
+        }
+
+
+        body {
+            margin: 0;
+        }
+
+        .timeline .content {
+            margin: 30px 0px 3px 60px;
+        }
+
+        .timeline .centerline{
+            left: 30px;
+        }
+
+        .timeline .content section{
+            width: 100%;
+        }
+    }
