@@ -31,13 +31,13 @@ Site map
 
 Screenshots
 ==
-My portfolio features 4 HTML5 webpage designs:  
+My portfolio features 4 HTML5 webpage designs:
 ### Home Page:
 ![home page](./docs/Screenshots/home.png "home page screenshot")
 ### Experience Page:
 ![home page](./docs/Screenshots/experience.png "home page screenshot")
 ### Blog Page:
-![blog page](./docs/Screenshots/blog.png "blog page screenshot")
+![blog page](./docs/Screenshots/blogs.png "blog page screenshot")
 ### Contact Me Page: 
 ![contact page](./docs/Screenshots/contact.png "contact page screenshot")
 
