@@ -25,29 +25,26 @@ Functionality / features
 * Footer & links to social media
 * Common theme and styling applied across site. 
 
-
-==
-
 Site map
 ==
-![site map](./docs/screenshot/sitemap.png "site map screenshot")
-Target audience
-==
-The target audience for this portfolio is potential employers, my peers and my assessors.
+![site map](./docs/Screenshots/sitemap.png "site map screenshot")
 Screenshots
 ==
 My portfolio features 4 HTML5 webpage designs:  
 ### Home Page:
-![home page](./docs/screenshot/home.png "home page screenshot")
+![home page](./docs/Screenshots/home.png "home page screenshot")
 ### Blog Page:
-![blog page](./docs/screenshot/blog.png "blog page screenshot")
+![blog page](./docs/Screenshots/blog.png "blog page screenshot")
 ### Contact Me Page: 
-![contact page](./docs/screenshot/contact.png "contact page screenshot")
+![contact page](./docs/Screenshots/contact.png "contact page screenshot")
 
+Target audience
+==
+The target audience for this portfolio is potential employers, my peers and my assessors.
 Tech stack 
 ==
 * HTML5
 * CSS
 * GITHUB
-* Deployment on github pages 
+* Deployment on github through github pages 
 
