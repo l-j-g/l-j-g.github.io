@@ -28,11 +28,14 @@ Functionality / features
 Site map
 ==
 ![site map](./docs/Screenshots/sitemap.png "site map screenshot")
+
 Screenshots
 ==
 My portfolio features 4 HTML5 webpage designs:  
 ### Home Page:
 ![home page](./docs/Screenshots/home.png "home page screenshot")
+### Experience Page:
+![home page](./docs/Screenshots/experience.png "home page screenshot")
 ### Blog Page:
 ![blog page](./docs/Screenshots/blog.png "blog page screenshot")
 ### Contact Me Page: 
@@ -41,6 +44,7 @@ My portfolio features 4 HTML5 webpage designs:
 Target audience
 ==
 The target audience for this portfolio is potential employers, my peers and my assessors.
+
 Tech stack 
 ==
 * HTML5
