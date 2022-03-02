@@ -1,0 +1,368 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600&display=swap");
+html {
+    font-size: 10px;
+}
+#pageHeader {
+    text-align: center;
+    color: #F8F8FF;
+}
+
+#navBar {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+/* Links inside the navbar */
+#navBar a {
+    font-size: 16px;
+    color: #F8F8FF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 100%;
+}
+
+/* Add a red background color to navbar links on hover */
+#navBar a:hover {
+    background-color: red;
+}
+
+/* highlights the current page of the nav bar in red */
+#navBar .current {
+    color: red;
+}
+
+/*  No change occurs when current selection is hovered over*/
+#navBar a.current:hover {
+    background-color: black;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+}
+h1 {
+  font-size: 4.4rem;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 3.2rem;
+  margin-bottom: 5px;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-size: 1.9rem;
+}
+header {
+  clear: both;
+  padding: 0px 0px 1.5rem 0px;
+}
+
+header h1 {
+  margin-bottom: 0px;
+  font-size: 5.6rem;
+}
+
+header h2 {
+  margin-top: 0px;
+  font-size: 2rem;
+}
+
+
+/* Body Styling */
+html,
+body {
+    height: 100%;
+    color: #F8F8FF
+}
+
+a {
+    color: #F8F8FF;
+    text-decoration: underline;
+}
+
+body {
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+
+    margin: 15%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    background: #21252b
+}
+
+.home h1 {
+    /*remove excess margin for headings*/
+    margin-top: 0;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+.footer .card {
+    /* remove excess padding on the footer*/
+    padding: 0px;
+    text-align: center;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+}
+
+.post img {
+    /* full width images in posts of content */
+    width: 100%;
+}
+
+.post p {
+    text-align: left;
+}
+
+.post figure {
+    display: inline;
+    max-width: 29%;
+    padding-right: 3%;
+    margin: 0;
+}
+
+.post figcaption {
+    text-align: center;
+}
+
+#imgRow {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    /* Creates a 'card' effect for sections of content*/
+    background-color: #282c34;
+    padding: 10px;
+    margin-top: 10px;
+    border-width: 2px;
+    border-color: #F8F8FF;
+    outline: auto;
+    outline-color: #F8F8FF;
+    outline-width: 10px;
+}
+
+.blogPosts img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: scale-down;
+}
+
+.center {
+    display: block;
+}
+
+#socialMedia {
+    /*Flexbox to display social media links on contact me page*/
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+#socialMedia img {
+    max-height: 10vh;
+    height: 40px;
+    vertical-align: middle;
+    /* Align text to be in the middle of imgs*/
+}
+
+#socialMedia a {
+    /* txt styling for social media links */
+    color: #F8F8FF;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+#socialMediaFooter {
+    display: flex;
+    /* This makes a 'sticky' footer at the btm of the pg.*/
+    justify-content: space-around;
+    padding: 0px;
+}
+
+#socialMediaFooter img {
+    height: 3rem;
+}
+
+#blogIndex h1 {
+    border-bottom: 1px solid black;
+}
+
+#blogIndex ul li {
+    position: relative;
+    list-style: none;
+    text-align: left;
+
+}
+
+.timeline {                     /* a container for all experiance timeline content */
+    position: relative;
+    max-width: 100%;
+}
+
+.centerline {                   /* the line that runs through the center of the page*/
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    background: #F8F8FF;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.timeline .content {
+    display: flex;
+}
+
+.content .details .title {      /* the title of a section of content on the timeline will be in bold*/
+    font-weight: bold;
+}
+
+.timeline .row-1 {              /* align first row timeline items on the left*/
+    justify-content: flex-start;
+}
+
+.timeline .row-2 {              /*align second row timeline items on the right*/
+    justify-content: flex-end;
+}
+
+.timeline .content section {    /* styling for a section of content on the timeline*/
+    background-color:  #282c34;
+    border-radius: 5px;
+    width: calc(50% - 80px);
+    padding: 20px;
+    position: relative;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.content section .circle {      /* circle shapes at each point on the timeline */
+    position: absolute;
+    content: "";
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    background: #282c34;
+    z-index: 1;
+    text-align: center;
+    border-radius: 50%;
+    border: solid red 2px;
+    top: 8px;
+}
+
+.row-1 section .circle {        /* positioning of circles */
+    right: -57px;
+}
+
+.row-2 section .circle {/* positioning of circles */
+    left: -57px;
+}
+
+.timeline .content section::before { /* create a arrow point on each section of content */
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: white;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+.row-1 section::before {        /*positioning of arrow */
+    right: -7px;
+}
+
+.row-2 section::before {        /*positioning of arrow*/
+    left: -7px;
+}
+
+.content section .details {     /* aligns title to the left and time/date on the right */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* /\* Media queries - Responses to screens less than 800px wide *\/ */
+@media screen and (max-width: 800px) {
+    #akira {                    /* hide an img and adjust the size of other images on the home page*/
+        display: none;
+    }
+
+    .post figure {
+        display: inline;
+        max-width: 44%;
+        padding-right: 3%;
+        margin: 0;
+    }
+
+    body#experience {           /*adjust page margin for blog page*/
+        margin: 0;
+    }
+    /* align all timeline content to the left and make nessecary adjustments  */
+    .timeline .content {
+        margin: 30px 0px 3px 60px;
+    }
+
+    .timeline .centerline {
+        left: 30px;
+    }
+
+    .timeline .content section {
+        width: 100%;
+    }
+
+    .row-1 section::before {
+        left: -7px;
+    }
+
+    .row-1 section .circle {
+        left: -47px;
+    }
+
+    .row-2 section .circle {
+        left: -47px;
+    }
+
+    /* Media queries - Responses to screens less than 600px wide */
+    @media screen and (max-width: 600px) {
+
+
+        #lc {                   /* hide another image  on the homepage for very small screens */
+            display: none;
+        }
+
+        .post figure {
+            display: inline;
+            max-width: calc(29%*3);
+            margin: 0;
+        }
+
+        body {
+            margin: 0;
+        }
+
+    }
+}
+
